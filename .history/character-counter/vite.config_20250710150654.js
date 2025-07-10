@@ -5,5 +5,5 @@ import { ghPages } from 'vite-plugin-gh-pages';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), ghPages()],
-  base: '/character-counter-app', // Replace with repository name
+  base: '/character-counter-a', // Replace with your repository name
 });
