@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer base {
+  :root {
+    --color-bg: #F6F7F9;
+    --color-text: #1F2A44;
+    --color-placeholder: #A3A6B4;
+    --color-border: #D4D7E0;
+    --color-card: #FFFFFF;
+  }
+
+  .bg-light-theme {
+    background-image: url('/assets/bg-light.svg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-dark-theme {
+    background-image: url('./ass/assets/bg-dark.svg');
+    background-size: cover;
+    background-position: center;
+  }
+}
