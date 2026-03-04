@@ -1,12 +1,60 @@
-# React + Vite
+# Frontend Mentor — Character Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Challenge Difficulty](https://img.shields.io/badge/Difficulty-Junior-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Completed-4F8EF7?style=flat-square)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-Currently, two official plugins are available:
+This is my solution to the [Character Counter challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/character-counter-znSgeWs_i6).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+![App Preview](./preview.jpg)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✅ Features
+
+- Character count (with or without spaces)
+- Word and sentence count
+- Set a character limit with over-limit warning
+- Estimated reading time
+- Letter density bar graph
+- Multiple color themes
+- Fully keyboard accessible
+- Responsive across all screen sizes
+
+## 🛠️ Built With
+
+- React
+- Tailwind CSS
+- Vite (or Create React App — update as needed)
+
+## 💡 What I Learned
+
+This challenge pushed my JavaScript DOM manipulation skills — particularly around:
+
+- Real-time input event handling for live counts
+- Building a dynamic bar graph from letter frequency data without a charting library
+- Managing multiple UI states (theme switching, character limit toggling) cleanly
+
+## 🚀 Getting Started
+
+No dependencies or build steps required.
+
+```bash
+git clone https://github.com/blordeus/character-counter-app.git
+cd character-counter-app
+open index.html
+```
+
+Or just open `index.html` directly in your browser.
+
+## 🔗 Links
+
+- [Live Demo](#) ← add your deployed URL
+- [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/character-counter-znSgeWs_i6)
+
+## 👤 Author
+
+**Bryan Lordeus**  
+[Portfolio](https://bryanlordeus.com) · [Frontend Mentor](https://www.frontendmentor.io/profile/blordeus) · [GitHub](https://github.com/blordeus)
